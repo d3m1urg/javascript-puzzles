@@ -7,13 +7,13 @@
  */
 
 (function accountant() {
-  const balance = [1,2,,4,5];
-  let sum = 0;
-  for (let i = 0; i < balance.length; i++) {
-    sum += balance[i];
-  }
-  if (sum !== 15) {
-    throw new Error(`Oh no! It's all wrong again!`);
-  }
-  console.log(`Yep! It's correct:-)`);
+    const balance = [1,2,,4,5];
+    let sum = 0;
+    for (let i = 0; i < balance.length; i++) {
+        sum += balance[i];
+    }
+    if (sum !== 15) {
+        throw new Error(`Oh no! It's all wrong again!`);
+    }
+    console.log(`Yep! It's correct:-)`);
 })();
